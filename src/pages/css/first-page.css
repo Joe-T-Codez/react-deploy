@@ -1,0 +1,200 @@
+/*/////////INSTRUCTIONS; MATCH EACH CSS SECTION TO ITS CORRESPONDING JS COMPONENT WITH THE SAME NAME////*/
+/*////////////////////////////////////////Header//////////////////////////////////////////////////////////*/
+div .top-section{
+  background:transparent;
+  width:100%;
+  padding:20px;
+  position:absolute;
+}
+a {
+  cursor:pointer;
+  text-decoration:none;
+  color:white;
+  position:relative;
+  margin-right: 100px;
+  z-index:1;
+
+}
+.header-logo{
+  display:inline-block;
+  width:20%;
+}
+.header-logo a{
+  color:white;
+  font-size:20px;
+  z-index:1;
+}
+.header-pages{
+  display:inline-block;
+  width:80%;
+}
+.header-pages ul{
+  width:80%;
+  float:right;
+}
+.header-pages ul li {
+display:inline-block;
+width:10%;
+font-weight:600;
+font-size: 14px;
+padding-left: 200px;
+}
+.header-pages ul li a:hover{
+  border-bottom: 2px dotted grey;
+}
+li i{
+  color:white;
+
+
+}
+/*////////////////////////////////////////MidSection//////////////////////////////////////////////////////////*/
+
+.mid-section{
+  width: 100%;
+  height:600px;
+  background: #b51212;
+  background: linear-gradient(135deg,
+  rgba(0,0,0,.9) 0,
+  #002d77 100%);
+  background-image:linear-gradient(135deg,
+  rgba(0,0,0,.1) 0,
+      #000 100%),url('./images/steak5.jpg') ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.mid-section .img-text{
+  position:relative;
+  float:right;
+  position: relative;
+  top:200px;
+  right:200px;
+  text-transform: uppercase;
+
+}
+@keyframes fade {
+  from{color:black;}
+}
+.img-text h5{
+  font-weight:600;
+  font-size:50px;
+  color:white;
+  animation-name: fade;
+  animation-duration:3s
+}
+.img-text h2{
+  opacity:.7;
+  color:white;
+  font-weight:600;
+  font-size:20px;
+  letter-spacing: 10px;
+  animation-name: fade;
+  animation-duration:3s
+}
+.header-img-extras{
+  position:relative;
+  float:right;
+  position: relative;
+  top:520px;
+  left:270px;
+  text-transform: uppercase;
+}
+.header-img-extras .two{
+  color:white;
+  font-size: 25px;
+}
+.header-img-extras .three{
+  color:white;
+  opacity:.7;
+}
+/*////////////////////////////////////////Bottom//////////////////////////////////////////////////////////*/
+.bottom-content{
+  width: 100%;
+  height:600px;
+
+}
+.bottom-text{
+  font-family:sans-serif;
+ letter-spacing: 6px;
+  font-size:16px;
+  font-weight:600;
+  text-transform: uppercase;
+}
+.bottom-img{
+  background:url('./images/marble.jpg');
+  width:100%;
+  height:600px;
+  position:relative;
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+.featured-items{
+  width:100%;
+  display:inline-block;
+  text-align:center;
+  margin-top:30px;
+}
+.feat-bgr{
+  width:20%;
+  height:400px;
+background:white;
+display: inline-block;
+margin-right:10px;
+}
+.feat-stk{
+  width:20%;
+background:white;
+height:400px;
+display: inline-block;
+margin-right:10px;
+}
+.feat-sweet{
+  width:20%;
+  height:400px;
+background:white;
+display: inline-block;
+margin-right:10px;
+}
+.feat-bgrr{
+  background:url('https://716f24d81edeb11608aa-99aa5ccfecf745e7cf976b37d172ce54.ssl.cf1.rackcdn.com/grilled-cumin-rubbed-flank-steak-1660330l1.jpg');
+  width:75%;
+  height:150px;
+  display:inline-block;
+  position:relative;
+  top:15px;
+  background-position:center;
+}
+.feat-stkk{
+  background:url('./images/restaurant-app5.jpg');
+  width:75%;
+  height:150px;
+  display:inline-block;
+  position:relative;
+  top:15px;
+  background-position:center;
+
+}
+.feat-sweett{
+  background:url('./images/restaurant-app5.jpg');
+  width:75%;
+  height:150px;
+  display:inline-block;
+  position:relative;
+  top:15px;
+  background-position:center;
+}
+.view-menu {
+  font-size:16px;
+  color: black;
+  display:block;
+  margin-top:10px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition:.3s ease-in-out;
+}
+.view-menu:hover{
+  opacity:.2;
+}
